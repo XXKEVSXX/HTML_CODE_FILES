@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> Grid </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+</head>
+<style>
+	body{
+		background-color: #297F87;
+	}
+	img{
+		transition: 1s;
+        
+	}
+	img:hover{
+		transform: scale(1.3);
+		cursor: pointer;
+	}
+
+	.my-cont {
+		border: none;
+		padding: 5px;
+		background-color: #DF2E2E;
+		color: white;
+		font-family: 'Nunito', sans-serif;
+		font-size: 16px;
+		text-align: center;
+		font-weight: bold;
+		font-family:consolas;
+	}
+
+	.info {
+		border: none;
+		padding: 10px;
+		background-color:black;
+		color: white;
+		font-family: 'Nunito', sans-serif;
+		font-size: 16px;
+		text-align: left;
+		font-weight: bold;
+		font-family: consolas;
+		background:none; 
+	}
+
+	.center {
+  		margin-left: auto;
+  		margin-right: auto;
+	}
+
+	img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 5px;
+		width: 150px;
+		border-radius: 70%;
+	}
+
+	.first-col {
+		color: #ffffff;
+		background-color:  cyan;
+		margin: 10px;
+		padding: 10px;
+		text-align: center;
+		width: 30%;
+		font-weight: bold;
+		font-family: consolas;
+	}
+
+	.second-col {
+		color: #ffffff;
+		background-color: green ;
+		margin: 10px;
+		padding: 10px;
+		text-align: center;
+		width: 30%;
+		font-weight: bold;
+		font-family: consolas;
+	}
+
+	.third-col {
+		color: #ffffff;
+		background-color: gray;
+		margin: 10px;
+		padding: 10px;
+		text-align: left;
+		width: 45%;
+		font-weight: bold;
+		font-family: consolas;
+	}
+
+	.second-col1{
+		background-color:yellow;
+		margin: 10px;
+		padding: 10px;
+		text-align: center;
+		width: 30%;
+		font-weight: bold;
+		font-family: consolas;
+
+	}
+	.second-col2{
+		background-color: #8000ff;
+		margin: 10px;
+		padding: 10px;
+		text-align: center;
+		width: 30%;
+		font-weight: bold;
+		font-family: consolas;
+
+	}
+
+
+
+
+</style>
+<body>
+	
+	<!--- Image --->
+	<img src="profile.jpg">
+
+	<!--- Name, Address, Email, Contact # --->
+	<div class="container my-cont">
+		<h2> Kenneth Vincent Hugo </h2>
+		<p> 1459 Dalandan ST Area D Camarin Caloocan City</p>
+		<p> 09662132630 </p>
+		<p> kennethvincenthugo23@gmail.com </p>
+	</div>
+
+	<div class="container info">
+		<table class="center">
+			<tr>
+				<td><b> Gender: </b></td>
+				<td> male </td>
+			</tr>
+			<tr> 
+				<td><b> Age: </b></td>
+				<td> 20 years old </td>
+			</tr>
+			<tr>
+				<td><b> Nationality: </b></td>
+				<td> Filipino </td>
+			</tr>
+			<tr>
+				<td><b> Date of Birth: </b></td>
+				<td> December 23, 2000 </td>
+			</tr>
+			<tr>
+				<td><b> Height: </b></td>
+				<td> 5'6 </td>
+			</tr>
+			<tr>
+				<td><b> Weigth: </b></td>
+				<td> 53 </td>
+			</tr>
+			<tr>
+				<td><b> Place of Birth: </b></td>
+				<td> Bagong Silang City </td>
+			</tr>
+		</table>
+	</div>
+
+	<div class=" container">
+		<div class="row ">
+			<div class="first-col col-sm-4 align-self-start">
+				<h3> Elementary </h3>
+				Division of Caloocan North I District
+                Camarin D Unit=II Elementary School <br>
+				2013<br>
+			</div>
+
+			<div class="second-col col-sm-4 align-self-center">
+				<h3> High School </h3>
+				Camarin High School <br>
+				Brgy. 174 Cadena De Amor near Camarin Caloocan City <br>
+				2017
+			</div>
+
+			<div class="second-col1 col-sm-4 align-self-center">
+				<h3> SENIOR HIGH </h3>
+				AMA Computer College  <br>
+				Regalado Hwy, Novaliches, Quezon City, Metro Manila <br>
+				2019
+			</div>
+
+
+			<div class="second-col2 col-sm-4 align-self-end">
+				<h3> College </h3>
+				Access computer and technical colleges <br>
+				#9 Zabarte Rd. Brgy.177, Camarin Caloocan City<br>
+				Present
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="third-col col-sm-6">
+				<h1>Skills</h1>
+				<ul>
+					<li> Programmer </li>
+					<li> Computer Hardware </li>
+					<li>  Technician </li>
+					<li>  software </li>
+				</ul>
+			</div>
+
+			</div>
+		</div>
+	</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+</body>
+</html>
